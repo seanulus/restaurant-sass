@@ -1,6 +1,6 @@
 # JS Template Repo for Epicodus
 
-## By Bobby Martin
+## By Sean McDermott
 
 # Description
 This is a template directory to make things go quicker in the morning.
@@ -28,4 +28,4 @@ This is a template directory to make things go quicker in the morning.
 * Karma
 
 This project uses the _MIT License_
-&copy; **Bobby Martin** 2018
+&copy; **Sean McDermott** 2018
