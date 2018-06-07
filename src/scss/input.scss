@@ -16,6 +16,9 @@ $darkishBlue: #246D92;
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
+  @include mQ(540px) {
+    flex-wrap: wrap;
+  }
 
   .contact-info {
     padding-top: 10px;
@@ -40,6 +43,10 @@ $darkishBlue: #246D92;
     @include mQ(930px) {
       top: 10%;
       padding-left: 25%;
+    }
+    @include mQ(600px) {
+      top: 10%;
+      padding-left: 5%;
     }
 
     h2  {
@@ -196,9 +203,9 @@ $darkishBlue: #246D92;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  @include mQ (400px){
-
+  @include mQ (800px){
     justify-content: center;
+
     img {
       display: none;
     }
