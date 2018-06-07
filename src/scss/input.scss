@@ -73,6 +73,14 @@ $darkishBlue: #246D92;
   padding-top: 4%;
   color: white;
   background-color: $darkishBlue;
+  @include mQ(665px) {
+    display: block;
+
+    h3 {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
 
   h3 {
     font-weight: 200;
@@ -134,6 +142,9 @@ $darkishBlue: #246D92;
   font-weight: 100;
   display: flex;
   justify-content: center;
+  @include mQ(860px) {
+    display: none;
+  }
 
   img {
     width: 100%;
@@ -185,6 +196,13 @@ $darkishBlue: #246D92;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @include mQ (400px){
+
+    justify-content: center;
+    img {
+      display: none;
+    }
+  }
 
   li {
     list-style-type: none;
